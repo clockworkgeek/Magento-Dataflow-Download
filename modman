@@ -1,0 +1,4 @@
+code/*  app/code/community/Clockworkgeek/DataflowDownload/
+adminhtml/layout/dataflowdownload.xml  app/design/adminhtml/default/default/layout/dataflowdownload.xml
+adminhtml/template/*  app/design/adminhtml/default/default/template/dataflowdownload/
+modules/Clockworkgeek_DataflowDownload.xml  app/etc/modules/Clockworkgeek_DataflowDownload.xml

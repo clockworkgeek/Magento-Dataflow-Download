@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+
+	<adminhtml_system_convert_gui_run>
+		<reference name="convert_root">
+			<block type="dataflowdownload/adminhtml_profile_download" template="dataflowdownload/profile/download.phtml" name="dataflow_profile_download" output="toHtml" />
+		</reference>
+	</adminhtml_system_convert_gui_run>
+
+</layout>

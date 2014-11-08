@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <modules>
+        <Clockworkgeek_DataflowDownload>
+            <version>0.1.0</version>
+        </Clockworkgeek_DataflowDownload>
+    </modules>
+    <global>
+        <blocks>
+            <dataflowdownload>
+                <class>Clockworkgeek_DataflowDownload_Block</class>
+            </dataflowdownload>
+        </blocks>
+        <helpers>
+            <dataflowdownload>
+                <class>Clockworkgeek_DataflowDownload_Helper</class>
+            </dataflowdownload>
+        </helpers>
+    </global>
+
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<dataflowdownload before="Mage_Adminhtml">Clockworkgeek_DataflowDownload_Adminhtml</dataflowdownload>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+
+	<adminhtml>
+		<layout>
+			<updates>
+				<dataflowdownload>
+					<file>dataflowdownload.xml</file>
+				</dataflowdownload>
+			</updates>
+		</layout>
+	</adminhtml>
+</config>
