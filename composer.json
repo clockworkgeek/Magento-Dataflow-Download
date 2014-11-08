@@ -1,0 +1,13 @@
+{
+  "name":"clockworkgeek/dataflowdownload",
+  "type":"magento-module",
+  "license":"OSL-3.0",
+  "homepage":"https://github.com/clockworkgeek/Magento-Dataflow-Download",
+  "description":"Add a download link at the end of dataflow exports.",
+  "authors":[
+    {
+      "name":"Daniel Deady",
+      "email":"daniel@clockworkgeek.com"
+    }
+  ]
+}
